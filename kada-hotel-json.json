@@ -19,7 +19,7 @@
     { "id": "EQ-01", "itemName": "Handuk Mandi", "penaltyPrice": 50000 },
     { "id": "EQ-02", "itemName": "Remote TV", "penaltyPrice": 75000 },
     { "id": "EQ-03", "itemName": "Remote AC", "penaltyPrice": 75000 },
-    { "id": "EQ-04", "itemName": "Kunci Kamar (RFID)", "penaltyPrice": 50000 },
+    { "id": "EQ-04", "itemName": "Kunci Kamar", "penaltyPrice": 50000 },
     { "id": "EQ-05", "itemName": "Gelas Kaca", "penaltyPrice": 20000 },
     { "id": "EQ-06", "itemName": "Sprei & Selimut", "penaltyPrice": 150000 }
   ],

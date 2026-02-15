@@ -1,0 +1,316 @@
+{
+  "users": [
+    {
+      "id": "USR-01",
+      "username": "resepsionis1",
+      "password": "password123",
+      "name": "Siti Aminah",
+      "role": "receptionist"
+    },
+    {
+      "id": "USR-02",
+      "username": "resepsionis2",
+      "password": "password123",
+      "name": "Budi Santoso",
+      "role": "receptionist"
+    }
+  ],
+  "equipmentList": [
+    { "id": "EQ-01", "itemName": "Handuk Mandi", "penaltyPrice": 50000 },
+    { "id": "EQ-02", "itemName": "Remote TV", "penaltyPrice": 75000 },
+    { "id": "EQ-03", "itemName": "Remote AC", "penaltyPrice": 75000 },
+    { "id": "EQ-04", "itemName": "Kunci Kamar (RFID)", "penaltyPrice": 50000 },
+    { "id": "EQ-05", "itemName": "Gelas Kaca", "penaltyPrice": 20000 },
+    { "id": "EQ-06", "itemName": "Sprei & Selimut", "penaltyPrice": 150000 }
+  ],
+  "rooms": [
+    {
+      "id": "RM-B301",
+      "roomNumber": "B301",
+      "category": "Standard",
+      "status": "available",
+      "pricePerNight": 300000,
+      "specs": {
+        "bedType": "1 Single Bed",
+        "size": "20 sqm",
+        "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B302",
+      "roomNumber": "B302",
+      "category": "Deluxe",
+      "status": "available",
+      "pricePerNight": 500000,
+      "specs": {
+        "bedType": "1 Queen Bed",
+        "size": "30 sqm",
+        "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B303",
+      "roomNumber": "B303",
+      "category": "Superior",
+      "status": "occupied",
+      "pricePerNight": 750000,
+      "specs": {
+        "bedType": "1 King Bed",
+        "size": "40 sqm",
+        "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
+      },
+      "currentBookingId": "BK-B003"
+    },
+    {
+      "id": "RM-B304",
+      "roomNumber": "B304",
+      "category": "Standard",
+      "status": "available",
+      "pricePerNight": 300000,
+      "specs": {
+        "bedType": "1 Single Bed",
+        "size": "20 sqm",
+        "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B305",
+      "roomNumber": "B305",
+      "category": "Deluxe",
+      "status": "occupied",
+      "pricePerNight": 500000,
+      "specs": {
+        "bedType": "1 Queen Bed",
+        "size": "30 sqm",
+        "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
+      },
+      "currentBookingId": "BK-B005"
+    },
+    {
+      "id": "RM-B306",
+      "roomNumber": "B306",
+      "category": "Superior",
+      "status": "available",
+      "pricePerNight": 750000,
+      "specs": {
+        "bedType": "1 King Bed",
+        "size": "40 sqm",
+        "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B307",
+      "roomNumber": "B307",
+      "category": "Standard",
+      "status": "available",
+      "pricePerNight": 300000,
+      "specs": {
+        "bedType": "1 Single Bed",
+        "size": "20 sqm",
+        "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B308",
+      "roomNumber": "B308",
+      "category": "Deluxe",
+      "status": "available",
+      "pricePerNight": 500000,
+      "specs": {
+        "bedType": "1 Queen Bed",
+        "size": "30 sqm",
+        "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B309",
+      "roomNumber": "B309",
+      "category": "Superior",
+      "status": "occupied",
+      "pricePerNight": 750000,
+      "specs": {
+        "bedType": "1 King Bed",
+        "size": "40 sqm",
+        "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
+      },
+      "currentBookingId": "BK-B009"
+    },
+    {
+      "id": "RM-B310",
+      "roomNumber": "B310",
+      "category": "Standard",
+      "status": "occupied",
+      "pricePerNight": 300000,
+      "specs": {
+        "bedType": "1 Single Bed",
+        "size": "20 sqm",
+        "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
+      },
+      "currentBookingId": "BK-B010"
+    },
+    {
+      "id": "RM-B311",
+      "roomNumber": "B311",
+      "category": "Deluxe",
+      "status": "available",
+      "pricePerNight": 500000,
+      "specs": {
+        "bedType": "1 Queen Bed",
+        "size": "30 sqm",
+        "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B312",
+      "roomNumber": "B312",
+      "category": "Superior",
+      "status": "available",
+      "pricePerNight": 750000,
+      "specs": {
+        "bedType": "1 King Bed",
+        "size": "40 sqm",
+        "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B313",
+      "roomNumber": "B313",
+      "category": "Standard",
+      "status": "available",
+      "pricePerNight": 300000,
+      "specs": {
+        "bedType": "1 Single Bed",
+        "size": "20 sqm",
+        "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B314",
+      "roomNumber": "B314",
+      "category": "Deluxe",
+      "status": "occupied",
+      "pricePerNight": 500000,
+      "specs": {
+        "bedType": "1 Queen Bed",
+        "size": "30 sqm",
+        "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
+      },
+      "currentBookingId": "BK-B014"
+    },
+    {
+      "id": "RM-B315",
+      "roomNumber": "B315",
+      "category": "Superior",
+      "status": "available",
+      "pricePerNight": 750000,
+      "specs": {
+        "bedType": "1 King Bed",
+        "size": "40 sqm",
+        "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B316",
+      "roomNumber": "B316",
+      "category": "Standard",
+      "status": "available",
+      "pricePerNight": 300000,
+      "specs": {
+        "bedType": "1 Single Bed",
+        "size": "20 sqm",
+        "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B317",
+      "roomNumber": "B317",
+      "category": "Deluxe",
+      "status": "available",
+      "pricePerNight": 500000,
+      "specs": {
+        "bedType": "1 Queen Bed",
+        "size": "30 sqm",
+        "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B318",
+      "roomNumber": "B318",
+      "category": "Superior",
+      "status": "occupied",
+      "pricePerNight": 750000,
+      "specs": {
+        "bedType": "1 King Bed",
+        "size": "40 sqm",
+        "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
+      },
+      "currentBookingId": "BK-B018"
+    },
+    {
+      "id": "RM-B319",
+      "roomNumber": "B319",
+      "category": "Standard",
+      "status": "available",
+      "pricePerNight": 300000,
+      "specs": {
+        "bedType": "1 Single Bed",
+        "size": "20 sqm",
+        "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
+      },
+      "currentBookingId": null
+    },
+    {
+      "id": "RM-B320",
+      "roomNumber": "B320",
+      "category": "Deluxe",
+      "status": "available",
+      "pricePerNight": 500000,
+      "specs": {
+        "bedType": "1 Queen Bed",
+        "size": "30 sqm",
+        "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
+      },
+      "currentBookingId": null
+    }
+  ],
+  "activeBookings": [
+    {
+      "id": "BK-001",
+      "roomId": "RM-201",
+      "customer": {
+        "fullName": "Andi Darmawan",
+        "identityNumber": "3201234567890001",
+        "gender": "Laki-laki",
+        "phoneNumber": "081234567890"
+      },
+      "estimatedDays": 2,
+      "note": "Mohon disiapkan extra bantal",
+      "checkInDate": "2026-02-14T14:00:00Z"
+    },
+    {
+      "id": "BK-002",
+      "roomId": "RM-301",
+      "customer": {
+        "fullName": "Rina Melati",
+        "identityNumber": "3209876543210002",
+        "gender": "Perempuan",
+        "phoneNumber": "089876543210"
+      },
+      "estimatedDays": 3,
+      "note": "Alergi debu, mohon kamar dipastikan sangat bersih",
+      "checkInDate": "2026-02-15T10:30:00Z"
+    }
+  ]
+}

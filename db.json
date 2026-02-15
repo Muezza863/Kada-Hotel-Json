@@ -288,7 +288,7 @@
   "activeBookings": [
     {
       "id": "BK-001",
-      "roomId": "RM-201",
+      "roomId": "RM-B303",
       "customer": {
         "fullName": "Andi Darmawan",
         "identityNumber": "3201234567890001",
@@ -301,7 +301,7 @@
     },
     {
       "id": "BK-002",
-      "roomId": "RM-301",
+      "roomId": "RM-B305",
       "customer": {
         "fullName": "Rina Melati",
         "identityNumber": "3209876543210002",
@@ -315,3 +315,4 @@
   ]
 
 }
+

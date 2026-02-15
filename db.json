@@ -61,7 +61,7 @@
         "size": "40 sqm",
         "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
       },
-      "currentBookingId": "BK-B003"
+      "currentBookingId": "BK-001"
     },
     {
       "id": "RM-B304",
@@ -87,7 +87,7 @@
         "size": "30 sqm",
         "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
       },
-      "currentBookingId": "BK-B005"
+      "currentBookingId": "BK-002"
     },
     {
       "id": "RM-B306",
@@ -139,7 +139,7 @@
         "size": "40 sqm",
         "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
       },
-      "currentBookingId": "BK-B009"
+      "currentBookingId": null
     },
     {
       "id": "RM-B310",
@@ -152,7 +152,7 @@
         "size": "20 sqm",
         "facilities": ["AC", "TV 32 inch", "WiFi", "Water Heater"]
       },
-      "currentBookingId": "BK-B010"
+      "currentBookingId": null
     },
     {
       "id": "RM-B311",
@@ -204,7 +204,7 @@
         "size": "30 sqm",
         "facilities": ["AC", "Smart TV 43 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker"]
       },
-      "currentBookingId": "BK-B014"
+      "currentBookingId": null
     },
     {
       "id": "RM-B315",
@@ -256,7 +256,7 @@
         "size": "40 sqm",
         "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
       },
-      "currentBookingId": "BK-B018"
+      "currentBookingId": null
     },
     {
       "id": "RM-B319",
@@ -313,4 +313,5 @@
       "checkInDate": "2026-02-15T10:30:00Z"
     }
   ]
+
 }

@@ -100,7 +100,7 @@
         "size": "40 sqm",
         "facilities": ["AC", "Smart TV 50 inch", "WiFi", "Water Heater", "Mini Fridge", "Coffee Maker", "Bathtub", "Balcony"]
       },
-      "currentBookingId": null
+      "currentBookingId": "BK-003"
     },
     {
       "id": "RM-B307",
@@ -315,5 +315,6 @@
   ]
 
 }
+
 
 
